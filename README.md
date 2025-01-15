@@ -11,7 +11,7 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
 
 The data set contains the following diseases:
@@ -26,34 +26,25 @@ The data set contains the following diseases:
 - Squamous cell carcinoma
 - Vascular lesion
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- In the first model, slight overfitting could be observed but the model fit perfectly with accuracy around 64%
+- Augmented data model showed overfitting and had to be rectified
+- Using Augmentor library, and adding augmented images to all classes to have them at 500 samples per class rectified over fitting and the model fit correctly.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python libraries
+- Keras
+- Augmentor
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
+Created by Lakshmi Rao
 
 <!-- Optional -->
 <!-- ## License -->
